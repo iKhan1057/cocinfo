@@ -4,8 +4,9 @@ import com.cocdetails.ui.nodels.home.HomeParents
 import com.cocdetails.ui.nodels.landing.LandingParent
 
 interface CocDetailsApi {
+    @GET("/landing.json")
+    suspend fun getLandingData(): LandingParent
 
-   suspend fun getLandingData():LandingParent
-
-   suspend fun getHomeData():HomeParents
+    @GET("/main.json")
+    suspend fun getHomeData(): HomeParents
 }
