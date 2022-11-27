@@ -1,0 +1,16 @@
+{
+  "landing": [
+    {
+      "id": "hv",
+      "name": "Home Village"
+    },
+    {
+      "id": "bb",
+      "name": "Builder Base"
+    },
+    {
+      "id": "cc",
+      "name": "Clan Capital"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "main": [
+    {
+      "id": "hv",
+      "name": "Home Village",
+      "levels": [
+        {
+          "id": "hv_01",
+          "name": "Town Hall Level 01"
+        },
+        {
+          "id": "hv_02",
+          "name": "Town Hall Level 02"
+        },
+        {
+          "id": "hv_03",
+          "name": "Town Hall Level 03"
+        },
+        {
+          "id": "hv_04",
+          "name": "Town Hall Level 04"
+        },
+        {
+          "id": "hv_05",
+          "name": "Town Hall Level 05"
+        },
+        {
+          "id": "hv_06",
+          "name": "Town Hall Level 06"
+        },
+        {
+          "id": "hv_07",
+          "name": "Town Hall Level 07"
+        },
+        {
+          "id": "hv_08",
+          "name": "Town Hall Level 08"
+        },
+        {
+          "id": "hv_09",
+          "name": "Town Hall Level 09"
+        },
+        {
+          "id": "hv_10",
+          "name": "Town Hall Level 10"
+        },
+        {
+          "id": "hv_11",
+          "name": "Town Hall Level 11"
+        },
+        {
+          "id": "hv_12",
+          "name": "Town Hall Level 12"
+        },
+        {
+          "id": "hv_13",
+          "name": "Town Hall Level 13"
+        },
+        {
+          "id": "hv_14",
+          "name": "Town Hall Level 14"
+        },
+        {
+          "id": "hv_15",
+          "name": "Town Hall Level 15"
+        }
+      ]
+    },
+    {
+      "id": "bb",
+      "name": "Builder Base",
+      "levels": [
+        {
+          "id": "bb_01",
+          "name": "Builder Hall Level 01"
+        },
+        {
+          "id": "bb_02",
+          "name": "Builder Hall Level 02"
+        },
+        {
+          "id": "bb_03",
+          "name": "Builder Hall Level 03"
+        },
+        {
+          "id": "bb_04",
+          "name": "Builder Hall Level 04"
+        },
+        {
+          "id": "bb_05",
+          "name": "Builder Hall Level 05"
+        },
+        {
+          "id": "bb_06",
+          "name": "Builder Hall Level 06"
+        },
+        {
+          "id": "bb_07",
+          "name": "Builder Hall Level 07"
+        },
+        {
+          "id": "bb_08",
+          "name": "Builder Hall Level 08"
+        },
+        {
+          "id": "bb_09",
+          "name": "Builder Hall Level 09"
+        }
+      ]
+    },
+    {
+      "id": "cc",
+      "name": "Clan Capital",
+      "levels": [
+        {
+          "id": "cc_01",
+          "name": "Capital Hall"
+        },
+        {
+          "id": "cc_02",
+          "name": "Barbarian Camp"
+        },
+        {
+          "id": "cc_03",
+          "name": "Wizard Valley"
+        },
+        {
+          "id": "cc_04",
+          "name": "Balloon Lagoon"
+        },
+        {
+          "id": "cc_05",
+          "name": "Builder's Workshop"
+        },
+        {
+          "id": "cc_06",
+          "name": "Dragon Cliffs"
+        },
+        {
+          "id": "cc_07",
+          "name": "Golem Quarry"
+        }
+      ]
+    }
+  ]
+}
