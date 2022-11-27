@@ -13,9 +13,8 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 class AppModule {
-
-    @Provides
     @Singleton
+    @Provides
     fun providesCocDetailsApi() = Retrofit.Builder().baseUrl(AppUtils.BASE_URL)
         .addConverterFactory(GsonConverterFactory.create())
         .build().create(CocDetailsApi::class.java)

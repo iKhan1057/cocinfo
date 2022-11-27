@@ -24,37 +24,39 @@ fun LandingPage(
     navHostController: NavHostController,
     landingViewModel: LandingViewModel = hiltViewModel()
 ) {
-    Surface() {
-        val landingdataFromServer =
-            produceState<DataOrException<LandingParent, Boolean, Exception>>(
-                initialValue = DataOrException(
-                    loading = true
-                )
-            ) {
-                value = landingViewModel.getLandingDataFromServer()
-            }.value
-
-        if (landingdataFromServer.loading == true) {
-            CircularProgressIndicator()
-        } else {
-            if (landingdataFromServer.data == null) {
-                Text(
-                    text = "Some Error Occured",
-                    modifier = Modifier.fillMaxSize(),
-                    fontWeight = FontWeight.ExtraBold,
-                    color = Color.Red
-                )
-            } else {
-                ShowContent(navHostController, landingdataFromServer.data!!)
-            }
-        }
+    Surface(modifier = Modifier.fillMaxSize()) {
+//        Column() {
+//            val landingdataFromServer =
+//                produceState<DataOrException<LandingParent, Boolean, Exception>>(
+//                    initialValue = DataOrException(
+//                        loading = true
+//                    )
+//                ) {
+//                    value = landingViewModel.getLandingDataFromServer()
+//                }.value
+//
+//            if (landingdataFromServer.loading == true) {
+//                CircularProgressIndicator()
+//            } else {
+//                if (landingdataFromServer.data == null) {
+//                    Text(
+//                        text = "Some Error Occured",
+//                        modifier = Modifier.fillMaxSize(),
+//                        fontWeight = FontWeight.ExtraBold,
+//                        color = Color.Red
+//                    )
+//                } else {
+//                    ShowContent(navHostController, landingdataFromServer.data!!)
+//                }
+//            }
+//        }
+        ShowContent(navHostController)
     }
-
 }
 
 
 @Composable
-fun ShowContent(navHostController: NavHostController, data: LandingParent) {
+fun ShowContent(navHostController: NavHostController) {
     Box(modifier = Modifier.fillMaxSize()) {
         Column(modifier = Modifier.fillMaxSize()) {
             Row(

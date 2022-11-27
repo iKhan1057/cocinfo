@@ -9,7 +9,7 @@ import javax.inject.Inject
 class COCDetailsRepository @Inject constructor(private val cocDetailsApi: CocDetailsApi) {
     suspend fun getLandingData(): DataOrException<LandingParent, Boolean, Exception> {
         val response =    try {
-            cocDetailsApi.getLandingData()
+            cocDetailsApi.getLandingDataFromServ()
         } catch (e: Exception) {
             Log.d("EX", "getProductList: $e")
             return DataOrException(e = e)
