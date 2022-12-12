@@ -1,8 +1,7 @@
 package com.cocdetails.ui.nodels.landing
 
-data class Landing(
+data class Section(
     val id: String,
     val name: String,
-    val th: String,
-    val section:List<Section>
+    val parent_id: String
 )

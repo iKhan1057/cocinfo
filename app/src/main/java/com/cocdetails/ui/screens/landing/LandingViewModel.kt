@@ -9,7 +9,6 @@ import javax.inject.Inject
 
 @HiltViewModel
 class LandingViewModel @Inject constructor(private val repository: COCDetailsRepository) :ViewModel() {
-
     suspend fun getLandingDataFromServer(): DataOrException<LandingParent, Boolean, Exception> {
         return repository.getLandingData()
     }
