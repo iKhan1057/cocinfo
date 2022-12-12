@@ -1,0 +1,393 @@
+{
+  "response_data": [
+    {
+      "id": "hv",
+      "name": "Home Village",
+      "content": [
+        {
+          "name": "Defense",
+          "content_data": [
+            {
+              "name": "Buildings",
+              "data_content": [
+                {
+                  "name": "Cannon"
+                },
+                {
+                  "name": "Archer Tower"
+                },
+                {
+                  "name": "Mortar"
+                },
+                {
+                  "name": "Air Defense"
+                },
+                {
+                  "name": "Wizard Tower"
+                },
+                {
+                  "name": "Air Sweeper"
+                },
+                {
+                  "name": "Hidden Tesla"
+                },
+                {
+                  "name": "Bomb Tower"
+                },
+                {
+                  "name": "X-Bow"
+                },
+                {
+                  "name": "Inferno Tower"
+                },
+                {
+                  "name": "Eagle Artillery"
+                },
+                {
+                  "name": "Scattershot"
+                },
+                {
+                  "name": "Builder's Hut"
+                },
+                {
+                  "name": "Spell Tower"
+                },
+                {
+                  "name": "Monolith"
+                },
+                {
+                  "name": "Giga Tesla"
+                },
+                {
+                  "name": "Giga Inferno (TH13)"
+                },
+                {
+                  "name": "Giga Inferno (TH14)"
+                },
+                {
+                  "name": "Giga Inferno (TH15)"
+                },
+                {
+                  "name": "Wall"
+                }
+              ]
+            },
+            {
+              "name": "Traps",
+              "data_content": [
+                {
+                  "name": "Bomb"
+                },
+                {
+                  "name": "Spring Trap"
+                },
+                {
+                  "name": "Air Bomb"
+                },
+                {
+                  "name": "Giant Bomb"
+                },
+                {
+                  "name": "Seeking Air Mine"
+                },
+                {
+                  "name": "Skeleton Trap"
+                },
+                {
+                  "name": "Tornado Trap"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Army",
+          "content_data": [
+            {
+              "name": "Army Camp"
+            },
+            {
+              "name": "Barracks"
+            },
+            {
+              "name": "Dark Barracks"
+            },
+            {
+              "name": "Laboratory"
+            },
+            {
+              "name": "Spell Factory"
+            },
+            {
+              "name": "Dark Spell Factory"
+            },
+            {
+              "name": "Workshop"
+            },
+            {
+              "name": "Pet House"
+            }
+          ]
+        },
+        {
+          "name": "Resource",
+          "content_data": [
+            {
+              "name": "Town Hall"
+            },
+            {
+              "name": "Gold Mine"
+            },
+            {
+              "name": "Elixir Collector"
+            },
+            {
+              "name": "Dark Elixir Drill"
+            },
+            {
+              "name": "Gold Storage"
+            },
+            {
+              "name": "Elixir Storage"
+            },
+            {
+              "name": "Dark Elixir Storage"
+            },
+            {
+              "name": "Clan Castle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bb",
+      "name": "Builder Base",
+      "content": [
+        {
+          "name": "Defense",
+          "content_data": [
+            {
+              "name": "Buildings",
+              "data_content": [
+                {
+                  "name": "Cannon"
+                },
+                {
+                  "name": "Double Cannon"
+                },
+                {
+                  "name": "Archer Tower"
+                },
+                {
+                  "name": "Hidden Tesla"
+                },
+                {
+                  "name": "Firecrackers"
+                },
+                {
+                  "name": "Crusher"
+                },
+                {
+                  "name": "Guard Post"
+                },
+                {
+                  "name": "Air Bombs"
+                },
+                {
+                  "name": "Multi Mortar"
+                },
+                {
+                  "name": "Roaster"
+                },
+                {
+                  "name": "Giant Cannon"
+                },
+                {
+                  "name": "Mega Tesla"
+                },
+                {
+                  "name": "Lava Launcher"
+                },
+                {
+                  "name": "Walls"
+                }
+              ]
+            },
+            {
+              "name": "Traps",
+              "data_content": [
+                {
+                  "name": "Push Trap"
+                },
+                {
+                  "name": "Spring Trap"
+                },
+                {
+                  "name": "Mine"
+                },
+                {
+                  "name": "Mega Mine"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Army",
+          "content_data": [
+            {
+              "name": "Builder Barracks"
+            },
+            {
+              "name": "Army Camp"
+            },
+            {
+              "name": "Star Laboratory"
+            }
+          ]
+        },
+        {
+          "name": "Resource",
+          "content_data": [
+            {
+              "name": "Builder Hall"
+            },
+            {
+              "name": "Gold Mine"
+            },
+            {
+              "name": "Elixir Collector"
+            },
+            {
+              "name": "Gold Storage"
+            },
+            {
+              "name": "Elixir Storage"
+            },
+            {
+              "name": "Gem Mine"
+            },
+            {
+              "name": "O.T.T.O Hut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc",
+      "name": "Clan Capital",
+      "content": [
+        {
+          "name": "Defense",
+          "content_data": [
+            {
+              "name": "Buildings",
+              "data_content": [
+                {
+                  "name": "Cannon"
+                },
+                {
+                  "name": "Spear Thrower"
+                },
+                {
+                  "name": "Air Defense"
+                },
+                {
+                  "name": "Capital Hall"
+                },
+                {
+                  "name": "Multi Cannon"
+                },
+                {
+                  "name": "Bomb Tower"
+                },
+                {
+                  "name": "Multi Mortar"
+                },
+                {
+                  "name": "Super Wizard Tower"
+                },
+                {
+                  "name": "Air Bombs"
+                },
+                {
+                  "name": "Rapid Rockets"
+                },
+                {
+                  "name": "Crusher"
+                },
+                {
+                  "name": "Hidden Mega Tesla"
+                },
+                {
+                  "name": "Giant Cannon"
+                },
+                {
+                  "name": "Rocket Artillery"
+                },
+                {
+                  "name": "Inferno Tower"
+                },
+                {
+                  "name": "Blast Bow"
+                },
+                {
+                  "name": "Super Giant Post"
+                },
+                {
+                  "name": "Raid Cart Post"
+                },
+                {
+                  "name": "Super Dragon Post"
+                },
+                {
+                  "name": "Wall"
+                }
+              ]
+            },
+            {
+              "name": "Traps",
+              "data_content": [
+                {
+                  "name": "Mine"
+                },
+                {
+                  "name": "Mega Mine"
+                },
+                {
+                  "name": "Log Trap"
+                },
+                {
+                  "name": "Zap Trap"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Army",
+          "content_data": [
+            {
+              "name": "Army Camp"
+            },
+            {
+              "name": "Spell Storage"
+            },
+            {
+              "name": "Barracks"
+            },
+            {
+              "name": "Spell Factories"
+            }
+          ]
+        },
+        {
+          "name": "Resource",
+          "content_data": []
+        }
+      ]
+    }
+  ]
+}

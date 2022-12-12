@@ -1,0 +1,67 @@
+{
+  "landing": [
+    {
+      "id": "hv",
+      "name": "Home Village",
+      "sections": [
+        {
+          "parent_id": "hv",
+          "id": "",
+          "name": "Defensive Buildings"
+        },
+        {
+          "parent_id": "hv",
+          "id": "",
+          "name": "Resource Buildings"
+        },
+        {
+          "parent_id": "hv",
+          "id": "",
+          "name": "Army Buildings"
+        }
+      ]
+    },
+    {
+      "id": "bb",
+      "name": "Builder Base",
+      "sections": [
+        {
+          "parent_id": "bb",
+          "id": "",
+          "name": "Defensive Buildings"
+        },
+        {
+          "parent_id": "bb",
+          "id": "",
+          "name": "Resource Buildings"
+        },
+        {
+          "parent_id": "bb",
+          "id": "",
+          "name": "Army Buildings"
+        }
+      ]
+    },
+    {
+      "id": "cc",
+      "name": "Clan Capital",
+      "sections": [
+        {
+          "parent_id": "cc",
+          "id": "",
+          "name": "Defensive Buildings"
+        },
+        {
+          "parent_id": "cc",
+          "id": "",
+          "name": "Army Buildings"
+        },
+        {
+          "parent_id": "cc",
+          "id": "",
+          "name": ""
+        }
+      ]
+    }
+  ]
+}
